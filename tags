@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddAdminToUser	db/migrate/20140606043459_add_admin_to_user.rb	/^class AddAdminToUser < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:ContactsRspec3Rails41
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Contact	app/models/contact.rb	/^class Contact < ActiveRecord::Base$/;"	c
+ContactTest	test/models/contact_test.rb	/^class ContactTest < ActiveSupport::TestCase$/;"	c
+ContactsController	app/controllers/contacts_controller.rb	/^class ContactsController < ApplicationController$/;"	c
+ContactsControllerTest	test/controllers/contacts_controller_test.rb	/^class ContactsControllerTest < ActionController::TestCase$/;"	c
+ContactsHelper	app/helpers/contacts_helper.rb	/^module ContactsHelper$/;"	m
+ContactsHelperTest	test/helpers/contacts_helper_test.rb	/^class ContactsHelperTest < ActionView::TestCase$/;"	c
+ContactsRspec3Rails41	config/application.rb	/^module ContactsRspec3Rails41$/;"	m
+CreateContacts	db/migrate/20140605000724_create_contacts.rb	/^class CreateContacts < ActiveRecord::Migration$/;"	c
+CreateGruops	db/migrate/20160522081807_create_gruops.rb	/^class CreateGruops < ActiveRecord::Migration$/;"	c
+CreatePhones	db/migrate/20140605002008_create_phones.rb	/^class CreatePhones < ActiveRecord::Migration$/;"	c
+CreateUsers	db/migrate/20140606035847_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+Gruop	app/models/gruop.rb	/^class Gruop < ActiveRecord::Base$/;"	c
+Phone	app/models/phone.rb	/^class Phone < ActiveRecord::Base$/;"	c
+PhoneTest	test/models/phone_test.rb	/^class PhoneTest < ActiveSupport::TestCase$/;"	c
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsControllerTest	test/controllers/sessions_controller_test.rb	/^class SessionsControllerTest < ActionController::TestCase$/;"	c
+SessionsHelper	app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+SessionsHelperTest	test/helpers/sessions_helper_test.rb	/^class SessionsHelperTest < ActionView::TestCase$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+UsersHelperTest	test/helpers/users_helper_test.rb	/^class UsersHelperTest < ActionView::TestCase$/;"	c
+administrator?	app/controllers/application_controller.rb	/^  def administrator?$/;"	f	class:ApplicationController
+authenticate	app/controllers/application_controller.rb	/^  def authenticate$/;"	f	class:ApplicationController
+by_letter	app/models/contact.rb	/^  def self.by_letter(letter)$/;"	F	class:Contact
+can_administer?	app/controllers/application_controller.rb	/^  def can_administer?$/;"	f	class:ApplicationController
+change	db/migrate/20140605000724_create_contacts.rb	/^  def change$/;"	f	class:CreateContacts
+change	db/migrate/20140605002008_create_phones.rb	/^  def change$/;"	f	class:CreatePhones
+change	db/migrate/20140606035847_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20140606043459_add_admin_to_user.rb	/^  def change$/;"	f	class:AddAdminToUser
+change	db/migrate/20160522081807_create_gruops.rb	/^  def change$/;"	f	class:CreateGruops
+contact_params	app/controllers/contacts_controller.rb	/^    def contact_params$/;"	f	class:ContactsController
+create	app/controllers/contacts_controller.rb	/^  def create$/;"	f	class:ContactsController
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+current_user	app/controllers/application_controller.rb	/^  def current_user$/;"	f	class:ApplicationController
+destroy	app/controllers/contacts_controller.rb	/^  def destroy$/;"	f	class:ContactsController
+destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+edit	app/controllers/contacts_controller.rb	/^  def edit$/;"	f	class:ContactsController
+index	app/controllers/contacts_controller.rb	/^  def index$/;"	f	class:ContactsController
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+name	app/models/contact.rb	/^  def name$/;"	f	class:Contact
+new	app/controllers/contacts_controller.rb	/^  def new$/;"	f	class:ContactsController
+new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+set_contact	app/controllers/contacts_controller.rb	/^    def set_contact$/;"	f	class:ContactsController
+show	app/controllers/contacts_controller.rb	/^  def show$/;"	f	class:ContactsController
+update	app/controllers/contacts_controller.rb	/^  def update$/;"	f	class:ContactsController
+user_params	app/controllers/users_controller.rb	/^    def user_params$/;"	f	class:UsersController
